@@ -1,0 +1,8 @@
+{
+  "name": "Roleta de Prêmios Touros Burguer",
+  "description": "Sistema de roleta da sorte interativo para a Touros Burguer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Nunito', sans-serif;
+  --font-heading: 'Fredoka', sans-serif;
+  
+  --color-background: hsl(30 100% 97%);
+  --color-foreground: hsl(198 69% 24%);
+  --color-card: hsl(0 0% 100%);
+  --color-card-foreground: hsl(198 69% 24%);
+  --color-popover: hsl(0 0% 100%);
+  --color-popover-foreground: hsl(198 69% 24%);
+  --color-primary: hsl(355 82% 56%);
+  --color-primary-foreground: hsl(0 0% 100%);
+  --color-secondary: hsl(29 89% 67%);
+  --color-secondary-foreground: hsl(198 69% 24%);
+  --color-muted: hsl(30 20% 90%);
+  --color-muted-foreground: hsl(210 7% 46%);
+  --color-accent: hsl(171 52% 40%);
+  --color-accent-foreground: hsl(0 0% 100%);
+  --color-destructive: hsl(0 84.2% 60.2%);
+  --color-destructive-foreground: hsl(0 0% 98%);
+  --color-border: hsl(0 0% 90%);
+  --color-input: hsl(0 0% 90%);
+  --color-ring: hsl(355 82% 56%);
+  --radius-lg: 0.75rem;
+}
+
+@layer base {
+  body {
+    background-color: #FFF8F0;
+    color: #264653;
+    font-family: 'Nunito', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fredoka', sans-serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF8F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5E5E5;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6C757D;
+}

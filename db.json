@@ -1,0 +1,205 @@
+{
+  "users": [
+    {
+      "id": "admin-id-1",
+      "email": "tourosburguer.chp@gmail.com",
+      "password_hash": "$2b$10$MkD5uYaAZYpCCtnwO3AFC.lWg/Jycnv8e56WnKSk2EM01piElUufO",
+      "name": "Administrador",
+      "role": "admin",
+      "created_at": "2026-07-15T01:29:52.944Z"
+    }
+  ],
+  "prizes": [
+    {
+      "id": "1",
+      "name": "Tente Outra Vez",
+      "slug": "no_prize",
+      "probability": 0.7,
+      "monthly_limit": 0,
+      "is_active": true,
+      "slice_index": 0,
+      "color": "#6C757D"
+    },
+    {
+      "id": "2",
+      "name": "5% Desconto",
+      "slug": "desconto_5",
+      "probability": 0.08,
+      "monthly_limit": 0,
+      "is_active": true,
+      "slice_index": 1,
+      "color": "#9B59B6"
+    },
+    {
+      "id": "3",
+      "name": "Pix de R$20,00",
+      "slug": "pix_20",
+      "probability": 0.02,
+      "monthly_limit": 3,
+      "is_active": true,
+      "slice_index": 2,
+      "color": "#E63946"
+    },
+    {
+      "id": "4",
+      "name": "Vale R$50",
+      "slug": "vale_50",
+      "probability": 0.02,
+      "monthly_limit": 2,
+      "is_active": true,
+      "slice_index": 3,
+      "color": "#F4A261"
+    },
+    {
+      "id": "5",
+      "name": "Refrigerante",
+      "slug": "refrigerante",
+      "probability": 0.04,
+      "monthly_limit": 0,
+      "is_active": true,
+      "slice_index": 4,
+      "color": "#2A9D8F"
+    },
+    {
+      "id": "6",
+      "name": "Upgrade Batata P→G",
+      "slug": "upgrade",
+      "probability": 0.04,
+      "monthly_limit": 0,
+      "is_active": true,
+      "slice_index": 5,
+      "color": "#E9C46A"
+    },
+    {
+      "id": "7",
+      "name": "Batata Grátis",
+      "slug": "batata",
+      "probability": 0.04,
+      "monthly_limit": 0,
+      "is_active": true,
+      "slice_index": 6,
+      "color": "#457B9D"
+    },
+    {
+      "id": "8",
+      "name": "Hot Dog Grátis",
+      "slug": "hotdog",
+      "probability": 0.03,
+      "monthly_limit": 0,
+      "is_active": true,
+      "slice_index": 7,
+      "color": "#E76F51"
+    },
+    {
+      "id": "9",
+      "name": "Cheese Salada",
+      "slug": "cheese_salada",
+      "probability": 0.025,
+      "monthly_limit": 0,
+      "is_active": true,
+      "slice_index": 8,
+      "color": "#8B4513"
+    },
+    {
+      "id": "10",
+      "name": "R$200,00 no Pix",
+      "slug": "pix_200",
+      "probability": 0.005,
+      "monthly_limit": 1,
+      "is_active": true,
+      "slice_index": 9,
+      "color": "#EFBF04",
+      "bimonthly_limit": 1
+    }
+  ],
+  "spins": [
+    {
+      "id": "ny4isfnnhs",
+      "order_id": "222222",
+      "prize_id": "1",
+      "prize_name": "Tente Outra Vez",
+      "is_winner": false,
+      "rotation_angle": 2142,
+      "created_at": "2026-07-15T01:30:26.326Z",
+      "customer_name": "Cliente de Teste",
+      "order_total": 89.9
+    },
+    {
+      "id": "hhtq1cgnhzg",
+      "order_id": "555555",
+      "prize_id": "7",
+      "prize_name": "Batata Grátis",
+      "is_winner": true,
+      "rotation_angle": 1926,
+      "created_at": "2026-07-15T01:34:20.270Z",
+      "customer_name": "Cliente de Teste",
+      "order_total": 89.9
+    },
+    {
+      "id": "fvdetgpi3mf",
+      "order_id": "676767676",
+      "prize_id": "1",
+      "prize_name": "Tente Outra Vez",
+      "is_winner": false,
+      "rotation_angle": 2142,
+      "created_at": "2026-07-15T01:34:30.104Z",
+      "customer_name": "Cliente de Teste",
+      "order_total": 89.9
+    },
+    {
+      "id": "mh7cddhi6i",
+      "order_id": "65765756756",
+      "prize_id": "8",
+      "prize_name": "Hot Dog Grátis",
+      "is_winner": true,
+      "rotation_angle": 1890,
+      "created_at": "2026-07-15T01:34:39.483Z",
+      "customer_name": "Cliente de Teste",
+      "order_total": 89.9
+    },
+    {
+      "id": "jb2zrhfwdrf",
+      "order_id": "67567567567",
+      "prize_id": "6",
+      "prize_name": "Upgrade Batata P→G",
+      "is_winner": true,
+      "rotation_angle": 1962,
+      "created_at": "2026-07-15T01:34:50.491Z",
+      "customer_name": "Cliente de Teste",
+      "order_total": 89.9
+    },
+    {
+      "id": "jmgaq01gjw",
+      "order_id": "65765765756",
+      "prize_id": "1",
+      "prize_name": "Tente Outra Vez",
+      "is_winner": false,
+      "rotation_angle": 2142,
+      "created_at": "2026-07-15T01:35:03.398Z",
+      "customer_name": "Cliente de Teste",
+      "order_total": 89.9
+    },
+    {
+      "id": "k2yl9d4s5n8",
+      "order_id": "244887856",
+      "prize_id": "1",
+      "prize_name": "Tente Outra Vez",
+      "is_winner": false,
+      "rotation_angle": 2142,
+      "created_at": "2026-07-15T01:40:45.074Z",
+      "customer_name": "Mateus",
+      "order_total": 101.8
+    },
+    {
+      "id": "jk130ykt6u",
+      "order_id": "244889110",
+      "prize_id": "1",
+      "prize_name": "Tente Outra Vez",
+      "is_winner": false,
+      "rotation_angle": 2142,
+      "created_at": "2026-07-15T01:42:12.589Z",
+      "customer_name": "Leticia",
+      "order_total": 55
+    }
+  ]
+}

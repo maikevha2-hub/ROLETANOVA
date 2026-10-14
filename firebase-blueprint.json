@@ -1,0 +1,56 @@
+{
+  "entities": {
+    "users": {
+      "title": "users",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "email": { "type": "string" },
+        "password": { "type": "string" },
+        "name": { "type": "string" },
+        "role": { "type": "string" },
+        "created_at": { "type": "string" }
+      },
+      "required": ["id", "email", "password", "name", "role"]
+    },
+    "prizes": {
+      "title": "prizes",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "slug": { "type": "string" },
+        "probability": { "type": "number" },
+        "monthly_limit": { "type": "number" },
+        "is_active": { "type": "boolean" },
+        "slice_index": { "type": "number" },
+        "color": { "type": "string" }
+      },
+      "required": ["id", "name", "probability", "is_active"]
+    },
+    "spins": {
+      "title": "spins",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "order_id": { "type": "string" },
+        "prize_id": { "type": "string" },
+        "prize_name": { "type": "string" },
+        "customer_name": { "type": "string" },
+        "created_at": { "type": "string" }
+      },
+      "required": ["id", "order_id", "prize_name", "created_at"]
+    },
+    "settings": {
+      "title": "settings",
+      "type": "object",
+      "properties": {
+        "store_name": { "type": "string" },
+        "store_url": { "type": "string" },
+        "cardapioweb_api_url": { "type": "string" },
+        "cardapioweb_api_key": { "type": "string" },
+        "require_cardapioweb_validation": { "type": "boolean" }
+      }
+    }
+  }
+}
